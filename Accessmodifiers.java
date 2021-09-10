@@ -17,6 +17,7 @@ class c1 {
 }
 
 class c2 {
+int a = 2;
 
 }
 
