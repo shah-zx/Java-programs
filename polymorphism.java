@@ -3,6 +3,9 @@
 
 // package com.company;
 
+
+
+
 interface MyCamera2{
     void takeSnap();
     void recordVideo();
