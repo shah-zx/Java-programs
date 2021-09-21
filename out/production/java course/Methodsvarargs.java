@@ -19,7 +19,7 @@ public class Methodsvarargs {
     public static void main(String[] args) {
 
         System.out.println("Welcome to the varargs tutorial.");
-        System.out.println("The sum of 9 anf 10 is : " + sum(2, 3)); // Here we have called the sum method which adds
+        System.out.println("The sum of 9 and 10 is : " + sum(2, 3)); // Here we have called the sum method which adds
                                                                      // the two numbers //
         System.out.println("The sum of 4 , 3 and 5 is : " + sum(2, 4, 5, 6));
         System.out.println("The sum of 4 , 3 and 5 is : " + sum(2, 4, 5, 6, 7));
