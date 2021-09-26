@@ -1,4 +1,3 @@
-
 // Here we will study about the main thing in java //
 // Do not repeat yourself :- DRY //
 // One java file can have only one public class //
