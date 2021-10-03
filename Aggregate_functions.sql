@@ -61,4 +61,9 @@ SELECT MAX(SAL) "Maximum_salary" FROM empl  /* The max function will return the 
 
 SELECT MIN(HIREDATE) "Senior_emp" FROM empl /* The minimum function will return the minimum amount form the column given*/
 
+SELECT SUM(SAL) "Salary" FROM empl /* The sum function will return the total amount form the column given*/
+
+SELECT ENAME , SAL+COMM FROM empl 
+
+SELECT ENAME , SAL , DEPTNO "characters" FROM empl WHERE COMM IS NULL
 
