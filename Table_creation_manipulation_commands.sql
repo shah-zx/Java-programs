@@ -22,3 +22,12 @@ DROP TABLE child;
 SELECT * FROM child
 
 DESC child;
+INSERT INTO child values (1, 'shahnawaz' , 'Male' , 'A' , 96.78);
+INSERT INTO child values (2, 'hamza' , 'Male' , 'B' , 95.44);
+INSERT INTO child values (3, 'Rahul' , 'Male' , 'C' , 67.90);
+INSERT INTO child values (4, 'Meenal' , 'Female' , 'D' , 89.90)
+SELECT ecode FROM child
+SELECT * FROM child WHERE ename = 'shahnawaz'
+
+SELECT * FROM child
+
