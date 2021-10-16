@@ -6,6 +6,8 @@ public class string {
     public static void main(String[] args) {
         System.out.println("Please enter the two strings :");
         Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        System.out.println("This is our string " + s );
         // String s = sc.next();
         // String p = sc.next();
         // System.out.println(s + p);
@@ -24,9 +26,12 @@ public class string {
         // }
          
         // Adding two strings : 
+
         String s1 = "Hello";
         String s2 = "world";
-        String s3 = s1 + " " + s2;
+        String s3 = s1 + " " + s2 ;
+        System.out.println(s1 + 10 + 20); // Here the 10 and 20 will concatenate with hello as strings and not as numbers //
+        System.out.println(10 + 20 + s1);
         System.out.println(s3);
     }
 }
