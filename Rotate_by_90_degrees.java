@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Rotate_by_90_degrees {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         int n  = sc.nextInt();
         int m = sc.nextInt();
         int arr[][] = new int[n][m];

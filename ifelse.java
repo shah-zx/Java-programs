@@ -1,6 +1,3 @@
-// Generic programming knowledge //
-// Here we will study about comnditional statement : if-else statement //
-// We mainly use relational opearators //
 public class ifelse {
     public static void main(String[] args) {
         int age = 18;  // = is assignment operator //
@@ -13,3 +10,7 @@ public class ifelse {
         }
     }
 }
+
+// Generic programming knowledge //
+// Here we will study about comnditional statement : if-else statement //
+// We mainly use relational opearators //

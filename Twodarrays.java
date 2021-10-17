@@ -17,7 +17,7 @@ public class Twodarrays {
                 System.out.print(arr[i][j] + "  ");
             }
         System.out.println();
-
+        System.out.println(sc);
         }
 
     }

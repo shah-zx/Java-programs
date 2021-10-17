@@ -21,7 +21,7 @@ public class Strings {
         // String st = sc.next();  // For printing the first word of the input //
         String st = msc.nextLine();
         System.out.println(st);
-
+        System.out.println(msc);
         // String arrays //
 
         String arr[] = new String[3];

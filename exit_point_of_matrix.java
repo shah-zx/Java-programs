@@ -55,6 +55,6 @@ public class exit_point_of_matrix {
         }
         System.out.println(i);
         System.out.println(j);
-
+        System.out.println(sc);
     }
 }

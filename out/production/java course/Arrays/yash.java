@@ -4,6 +4,7 @@ import java.util.*;
 public class yash {
     public static void main(String args[]) {
      Scanner sc= new Scanner(System.in);
+     System.out.println(sc);
     //  System.out.println("Enter the current base of the number :-");
     //  int base1=sc.nextInt();
     //  System.out.println("Enter the base in which the number is to be converted :-");
@@ -13,6 +14,8 @@ public class yash {
      int c=Any_to_Dec(n); // first function call //
     //  int ans=Dec_to_Any(c,base2); // second function call //
     //  System.out.println("The result after converting is :- " + ans);
+    System.out.println(c);
+
     }
     public static int Any_to_Dec(int n)
     {
@@ -37,6 +40,7 @@ public class yash {
     //     }
     //     return ans;
     // }
+    
 
 }
 

@@ -6,6 +6,7 @@ public class spiral_of_arrays {
     public static void main(String[] args) {
         System.out.println("Here we will traverse the array in spiral fashion ");
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         int n = sc.nextInt();
         int m = sc.nextInt();
         int arr[][] = new int[n][m];

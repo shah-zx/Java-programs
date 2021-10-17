@@ -9,6 +9,7 @@ public class switchcase {
         char var = 'r';
         System.out.println("Enter your age");
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         age = sc.nextInt();
         switch (var) {
             case 'r':  // Different cases //
@@ -24,6 +25,7 @@ public class switchcase {
         }
 
         Scanner s = new Scanner(System.in);
+        System.out.println(s);
         age = s.nextInt();
         if (age>50)
         {

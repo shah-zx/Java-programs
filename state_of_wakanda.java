@@ -5,6 +5,8 @@ public class state_of_wakanda {
     public static void main(String[] args) {
         System.out.println("Here we will traverse the matrice in a wave form.");
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
+        System.out.println();
         int n = sc.nextInt();
         int m = sc.nextInt();
         int arr[][] = new int[n][m];

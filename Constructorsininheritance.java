@@ -76,7 +76,9 @@ public class Constructorsininheritance {
         // First the base class constuctor then the derived class is called //
         // derive f = new derive(5,6);
         childOfDerive cd = new childOfDerive(12, 13, 15);
+        System.out.println(cd);
         derive s = new derive();
+        System.out.println(s);
 //        derive f = new derive(10 , 20);
 
     }

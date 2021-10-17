@@ -1,6 +1,3 @@
-// ** First create a class to be inherited ** //
-
-// Now we will see the constructors in inheritance //
 
 class base
 {
@@ -34,3 +31,6 @@ public class Inheritance {
 }
 
 //// Here we will see the inheritance in java //
+// ** First create a class to be inherited ** //
+
+// Now we will see the constructors in inheritance //

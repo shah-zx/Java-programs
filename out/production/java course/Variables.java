@@ -6,5 +6,6 @@ public class Variables {
         // System.out.println(sum);
         int bodmas = (x * y) / (x + y);
         System.out.println(bodmas);
+        System.out.println(sum);
     }
 }

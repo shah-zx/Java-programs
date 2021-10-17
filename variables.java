@@ -1,4 +1,3 @@
-// Here we will learn about variables //
 
 public class variables {
 public static void main(String[] args) {
@@ -10,3 +9,5 @@ public static void main(String[] args) {
     System.out.println(sum);
 }    
 }
+
+// Here we will learn about variables //

@@ -5,7 +5,7 @@ public class Incrementdecrementopndatatypeofexpression {
         float b = 6.5f + 6;
         System.out.println(b);
         System.out.println(a);
-        byte x = 5;
+        // byte x = 5;
         // int y = 6;
         // int z = x + y;
         // System.out.println(z);

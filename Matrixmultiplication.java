@@ -5,6 +5,7 @@ public class Matrixmultiplication {
         System.out.println("Here we will do the multiplication of two matrices");
         /* Taking the input for first matrice */
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         int r1 = sc.nextInt();
         int c1 = sc.nextInt();
         int one[][] = new int[r1][c1];

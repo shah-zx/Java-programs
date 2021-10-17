@@ -16,6 +16,7 @@ public class Primenumberex {
         Scanner scn = new Scanner(System.in);
         System.out.println("Please enter a number");
         int t = scn.nextInt();
+        System.out.println(scn);
 
         for (int i = 0; i < t; i++) {
             int n = scn.nextInt();
@@ -40,15 +41,18 @@ public class Primenumberex {
         // included).
         
             Scanner sc = new Scanner(System.in);
+            System.out.println(sc);
             System.out.println("Enter the low limit of range");
             int low = sc.nextInt();
             System.out.println("Enter the high limit of range");
             int high = sc.nextInt();
             int count = 0;
-            for (int l; low <= high; low++) {
+            System.out.println(count);
+            for (int l=1; low <= high; low++) {
                 for (int div = 1; div <= high; div++) {
                     if (high % div == 0) {
                         count++;
+                        System.out.println(l);
                     }
                 }
             }

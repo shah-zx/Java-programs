@@ -16,6 +16,7 @@ public class Functions {
 
         System.out.println();
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         System.out.println("enter n");
         int n = sc.nextInt();
         System.out.println("enter r");

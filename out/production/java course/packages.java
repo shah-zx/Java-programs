@@ -6,6 +6,7 @@ public class packages {
     public static void main(String[] args) {
         System.out.println("Hey , this is changed now!");
         Scanner mysc = new Scanner(System.in);
+        System.out.println(mysc);
         int result = mysc.nextInt();
         System.out.println("This is my scanner input as " + result);
 

@@ -16,7 +16,7 @@ public class Operators {
         a += 3;
         System.out.println(a);
         System.out.println(64 > 5 && 64 > 10);
-        System.out.println(64 > 10 || 64 < 81);
+        // System.out.println(64 > 10 || 64 < 81);
         System.out.println(2 & 3);
         System.out.println(4.8%1.1);  // --> returns decimal number //
     }

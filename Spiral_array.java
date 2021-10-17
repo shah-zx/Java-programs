@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Spiral_array {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner scn = new Scanner(System.in);
+    System.out.println(scn);
     int n = scn.nextInt();
     int m = scn.nextInt();
     int[][] arr = new int[n][m];
@@ -17,12 +18,12 @@ public class Spiral_array {
     int maxrow = arr.length - 1;
     int maxcol = arr[0].length - 1;
 
-    int tne = n * m;     //total numbers of elements
+    int tne = n * m; // total numbers of elements
     int count = 0;
 
     while (count < tne) {
 
-      //left wall
+      // left wall
       if (count < tne) {
         for (int i = minrow; i <= maxrow; i++) {
           System.out.println(arr[i][mincol]);
@@ -31,7 +32,7 @@ public class Spiral_array {
       }
       mincol++;
 
-      //bottom wall
+      // bottom wall
       if (count < tne) {
         for (int i = mincol; i <= maxcol; i++) {
           System.out.println(arr[maxrow][i]);
@@ -40,7 +41,7 @@ public class Spiral_array {
       }
       maxrow--;
 
-      //right wall
+      // right wall
       if (count < tne) {
         for (int i = maxrow; i >= minrow; i--) {
           System.out.println(arr[i][maxcol]);
@@ -49,7 +50,7 @@ public class Spiral_array {
       }
       maxcol--;
 
-      //top wall
+      // top wall
       if (count < tne) {
         for (int i = maxcol; i >= mincol; i--) {
           System.out.println(arr[minrow][i]);
@@ -58,5 +59,5 @@ public class Spiral_array {
       }
       minrow++;
     }
-    }
+  }
 }

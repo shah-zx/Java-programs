@@ -4,10 +4,9 @@ class c1 {
     protected int y = 45;
     int z;
     private int e = 10;
-
     public void mmeth1() {
         System.out.println("The value of x is " + x);
-
+        System.out.println(e);
     }
 
     public void meth2() {

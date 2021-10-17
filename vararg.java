@@ -27,14 +27,14 @@ public class vararg {
     }
 
     public static void main(String[] args) {
-        int c = 2;
-        int d = 9;
-        int i = 4;
-        int j = 5;
-        int e;
-        int f;
-        int g;
-        // This is the way of accessing the function // // sum //
+        // int c = 2;
+        // int d = 9;
+        // int i = 4;
+        // int j = 5;
+        // int e;
+        // int f;
+        // int g;
+        // // This is the way of accessing the function // // sum //
         System.out.println("The sum of 4 and 5 is :- " + sum(4,5));
         System.out.println("The sum of 4 , 3 and 5 is :- " + sum(4, 3 , 5));
         System.out.println("The sum of 4 , 3 , 2 and 5 is :- " + sum(4 , 3 , 2 ,5));
