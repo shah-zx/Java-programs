@@ -159,3 +159,5 @@ SELECT * FROM student WHERE aggregate > 430 ORDER BY aggregate ASC
 SELECT name , age , aggregate FROM student WHERE aggregate BETWEEN 400 AND 470 ORDER BY name DESC
 
 
+SELECT * FROM employee 
+
