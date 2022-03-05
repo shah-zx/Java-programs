@@ -12,15 +12,14 @@ public class precandas {
         int b = 10;
         int a = 4;
         int c = 5;
-        int deter = (b * b) - ((4 * a * c) / (2 * a));
-        System.out.println(deter);
+        int deter = (b * b) - (4 * (a * c)) / 2 * a;
 
         // System.out.println(deter);
         // int v = 8;
         // int u = 7;
         // int fin = (v * v) - (u * u);
         // System.out.println(fin);
-
+        
         // int a = 20;
         // int b = 9;
         // int d = 7;

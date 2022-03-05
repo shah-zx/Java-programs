@@ -8,25 +8,21 @@ public class precandas {
         // int x = 9;
         // int u = 3;
         // int g = (x - u) / 2;
-
-        int b = 10;
-        int a = 4;
-        int c = 5;
-        int deter = (b * b) - ((4 * a * c) / (2 * a));
-        System.out.println(deter);
-
+        // int b = 10;
+        // int a = 4;
+        // int c = 5;
+        // int deter = (b * b) - (4 * (a * c));
         // System.out.println(deter);
         // int v = 8;
         // int u = 7;
         // int fin = (v * v) - (u * u);
         // System.out.println(fin);
+        
+        int a = 20;
+        int b = 9;
+        int d = 7;
 
-        // int a = 20;
-        // int b = 9;
-        // int d = 7;
-
-        // int sum = (a * b ) - d;
-        // System.out.println(sum);
+        int sum = (a * b ) - d;
 
     }
 }
