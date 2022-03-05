@@ -17,15 +17,9 @@ public class oper {
         System.out.println(s > m);
         System.out.println(s <= m);
         System.out.println(s >= m);
-        System.out.println(s > m && s > 20); // comparison operator
-        System.out.println(s < m && s < 2);
+        System.out.println(s > m && s > 20);  // comparison operator
 
 
-        // Bitwise operators :
-
-        // && , || , !
-
-        
 
     }
 }
