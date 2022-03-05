@@ -31,6 +31,7 @@ public class strings {
         System.out.println(s.startsWith("sha"));
         System.out.println(s.endsWith("ry"));
         System.out.println(s.charAt(0));
+        
 
     }
 }

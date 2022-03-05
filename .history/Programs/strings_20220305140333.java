@@ -30,7 +30,7 @@ public class strings {
         System.out.println(s.replace("sha", "ahh")); // This replaces the character
         System.out.println(s.startsWith("sha"));
         System.out.println(s.endsWith("ry"));
-        System.out.println(s.charAt(0));
+
 
     }
 }

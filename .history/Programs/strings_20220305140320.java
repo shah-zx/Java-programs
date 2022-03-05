@@ -28,9 +28,9 @@ public class strings {
         System.out.println(s.substring(1, 4)); // start included and end excluded
         System.out.println(s.replace('s', 'a')); // This replaces the character
         System.out.println(s.replace("sha", "ahh")); // This replaces the character
-        System.out.println(s.startsWith("sha"));
+        System.out.println(s.startsWith("Har"));
         System.out.println(s.endsWith("ry"));
-        System.out.println(s.charAt(0));
+
 
     }
 }
