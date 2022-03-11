@@ -1,0 +1,14 @@
+package programs;
+
+
+class Job{
+   int y = 90;
+
+}
+
+public class classes {
+    public static void main(String[] args) {
+        System.out.println();
+
+    }
+}
