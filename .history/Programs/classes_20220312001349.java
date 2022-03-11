@@ -3,6 +3,7 @@ package programs;
 public class classes {
 
     public static void main(String[] args) {
+
         class Job {
             int id;
             int salary;
@@ -12,8 +13,7 @@ public class classes {
                 System.out.println("The id is : " + id);
                 System.out.println("The name is : " + name);
             }
-
-            public void getSalary(){
+            public int getSalary() {
                 System.out.println("salary is : " + salary);
             }
         }
@@ -29,6 +29,6 @@ public class classes {
         // System.out.println(trainee.name);
         trainee.printdet();
         intern.printdet();
-        trainee.getSalary();
+
     }
 }

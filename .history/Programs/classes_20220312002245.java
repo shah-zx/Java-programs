@@ -13,7 +13,7 @@ public class classes {
                 System.out.println("The name is : " + name);
             }
 
-            public void getSalary(){
+            public int getSalary(){
                 System.out.println("salary is : " + salary);
             }
         }
