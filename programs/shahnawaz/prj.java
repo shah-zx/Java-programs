@@ -13,8 +13,8 @@ public class prj {
             // name = "default name";
             // }
 
-            public Mymain(String naam) {  // Passing  a parametre
-                id = 10;
+            public Mymain(String naam , int pass) {  // Passing  a parametre
+                id = pass;
                 name = naam;
             }
 
@@ -38,7 +38,7 @@ public class prj {
             }
 
         }
-        Mymain shahnawaz = new Mymain("Hamza");
+        Mymain shahnawaz = new Mymain("Hamza" ,78);
         // shahnawaz.setid(1); // if no constraints are given then the constructor will
         // come into picture
         // shahnawaz.setName("Coder");
