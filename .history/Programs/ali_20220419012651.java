@@ -6,7 +6,6 @@ public class ali {
     public static void main(String[] args) {
         System.out.println();
         ArrayList<Integer> list = new ArrayList<Integer>();
-        ArrayList<Integer> list2 = new ArrayList<Integer>(5);
         list.add(9);
         list.add(8);
         list.add(7);
@@ -17,7 +16,7 @@ public class ali {
         }
         list.add(0, 6);
         list.add(3, 10);
-        System.out.println();;
+        System.out.println();
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }

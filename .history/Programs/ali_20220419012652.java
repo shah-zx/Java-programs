@@ -6,7 +6,6 @@ public class ali {
     public static void main(String[] args) {
         System.out.println();
         ArrayList<Integer> list = new ArrayList<Integer>();
-        ArrayList<Integer> list2 = new ArrayList<Integer>(5);
         list.add(9);
         list.add(8);
         list.add(7);
