@@ -26,12 +26,12 @@ public class ali {
         System.out.println();
         ;
         // for (int i = 0; i < list.size(); i++) {
-        // System.out.println(list.get(i));
+        //     System.out.println(list.get(i));
         // }
 
-        // By doing this we have added the two lists :
+        // By doing this we have added the two lists : 
         list.addAll(l2);
-        // list.addAll(0 ,l2); with index
+        // list.addAll(0 ,l2); with index 
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));

@@ -23,20 +23,11 @@ public class ali {
         }
         list.add(0, 6);
         list.add(3, 10);
-        System.out.println();
-        ;
-        // for (int i = 0; i < list.size(); i++) {
-        // System.out.println(list.get(i));
-        // }
-
-        // By doing this we have added the two lists :
-        list.addAll(l2);
-        // list.addAll(0 ,l2); with index
-
+        System.out.println();;
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
-        System.out.println(list.contains(36));
-        System.out.println(list.indexOf(7));
+        list.add(l2);
+
     }
 }
