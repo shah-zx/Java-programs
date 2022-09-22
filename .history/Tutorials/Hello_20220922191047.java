@@ -1,4 +1,5 @@
 package Tutorials;
+
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -10,6 +11,7 @@ public class Hello {
         int bakl = 20;
         int loj = vakl * bakl * bakl;
         System.out.println(loj);
+        
     }
 }
   // This is the simple program // 

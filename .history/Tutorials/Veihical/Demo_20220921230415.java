@@ -11,6 +11,6 @@ public class Demo {
         System.out.println(apache.passengers);
         apache.seats = 1;
         apache.getSeats();
-        apache.run();
+        // apache.run();
     }
 }

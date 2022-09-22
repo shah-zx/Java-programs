@@ -31,6 +31,5 @@ public class Vehical {
     }
     public void run(){
         System.out.println("Vehicle is running");
-        System.out.println(toString());
     }
 }

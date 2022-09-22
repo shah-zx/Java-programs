@@ -1,5 +1,5 @@
 package Tutorials.concept;
-import Tutorials.concept.Person;
+
 public class Hello {
 
   public static void main(String[] args) {
@@ -9,6 +9,6 @@ public class Hello {
     System.out.print(
       car.runCar(4, 2)
     ); 
-    Person person = new Person(null, null, 0);
+    Person person = new Person();
   }
 }
