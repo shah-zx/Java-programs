@@ -7,12 +7,17 @@ public class Phone {
     }
     public void features(){
         System.out.println("Redmi note 8");
+        
     }
-    
-    static public Phone phone(int dd) {
+    public Phone phone(int dd) {
         switch (dd) {
-            case 1: return new Nokia3310("3310");
-            case 2: return new Redminote8("Note 8");
+            case 1:
+                public Phone redmi  = new Phone();
+                break;
+            case 2:
+                public Phone Nokia = new Phone();
+            default:
+                break;
         }
         return null;
     }

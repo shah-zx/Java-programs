@@ -8,7 +8,6 @@ public class Phone {
     public void features(){
         System.out.println("Redmi note 8");
     }
-    
     static public Phone phone(int dd) {
         switch (dd) {
             case 1: return new Nokia3310("3310");

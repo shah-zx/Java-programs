@@ -6,7 +6,7 @@ public static void main(String[] args) {
     redmi.features();
     Phone Nokia3310 = new Nokia3310("Nokia");
     Nokia3310.features(); //  Feature method from the parent class would be called automatically //
-    Phone.phone(1);
+    redmi.Hello(); //
     // public int dailyDriver(int dd){
     //     switch(dd){
     //         case 1:
