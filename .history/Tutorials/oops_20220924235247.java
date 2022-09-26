@@ -4,9 +4,6 @@ public class oops {
     
     public int f = 0;
     public int d = 9;
-    public void memfunc() {
-        System.out.println("I am the member function");
-    }
 
     public void Welcome() {
         System.out.println("Here we will study oops");
@@ -16,5 +13,7 @@ public class oops {
         System.out.println("The data member is : " + f);
         System.out.println("The data member is : " + d);
     }
+
+
     
 }

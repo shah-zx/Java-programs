@@ -16,7 +16,5 @@ public interface Phone {
   int spaceInGB();
 
   // Deleting the access specifiers will not effect that much 
-  // Only declaration no implementation
-  
 
 }

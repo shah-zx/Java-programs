@@ -5,7 +5,7 @@ public class oops {
     public int f = 0;
     public int d = 9;
     public void memfunc() {
-        System.out.println("I am the member function");
+        System.out.println();
     }
 
     public void Welcome() {
@@ -16,5 +16,7 @@ public class oops {
         System.out.println("The data member is : " + f);
         System.out.println("The data member is : " + d);
     }
+
+
     
 }

@@ -17,6 +17,5 @@ public interface Phone {
 
   // Deleting the access specifiers will not effect that much 
   // Only declaration no implementation
-  
 
 }
