@@ -1,4 +1,5 @@
 package Tutorials;
+import java.util.LinkedList;
 import java.util.*;
 // import java.util.Iterator;
 
@@ -16,7 +17,7 @@ public class Iterat {
         app.printList(list);
     }
     void printList(List<String> list) {
-     Iterator<String> it = list.iterator();  // Printing the names using the iterator // 
+     Iterator<String> it = list.iterator();
      while(it.hasNext()) {
          System.out.println(it.next());
      }

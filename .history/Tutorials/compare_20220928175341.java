@@ -18,6 +18,6 @@ public class compare {
         // If the part 2 is smaller then -1 
 
 
-
+        // Comparable Interface Implementation - 
     }
 }

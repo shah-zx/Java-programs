@@ -16,8 +16,5 @@ public class compare {
         // If part 1 and part 2 are same then the result is 0;
         // If the part 1 is greater then the result is 1;
         // If the part 2 is smaller then -1 
-
-
-
     }
 }
