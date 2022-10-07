@@ -36,16 +36,6 @@ public class Arrlist {
     //Printing the arraylist object
     System.out.println(list);
 
-    // Another example -
-
-    ArrayList<Integer> n = new ArrayList<>();
-    n.add(2);
-    n.add(3);
-    n.add(4);
-    n.add(5);
-    n.add(6);
-    System.out.println(n);
-
     // These are functions for removing the elememts -
     num.remove(1); // 0 based indexing
     System.out.println(num);
@@ -53,28 +43,28 @@ public class Arrlist {
     System.out.println(list);
     Arrlist app = new Arrlist();
     int position = app.search("verma");
-    if (position != -1) {
+    if(position != -1){
       System.out.println("Found");
     } else {
       System.out.println("Not Found");
     }
   }
-  //  n.find(3 , n);
-  // Function for finding out the position of the string -
+
+  // Function for finding out the position of the string - 
 
   int search(String name) {
     return listNames.indexOf(name);
   }
-  // boolean find(int g, ArrayList<Integer> list) {
-  //   for(int i = 0; i < list.size(); i++) {
-  //     if(list.get(i) == g) { 
-  //       return true;
-  //     } else {
-  //       return false;
-  //     }
-  //   }
-  // }
+
+  ArrayList<Integer> n = new ArrayList<>();
+  n.add(2);
+  n.add(3);
+  n.add(4);
+  n.add(5);
+  n.add(6);
+
 }
+
 
 // Java ArrayList class can contain duplicate elements.
 // Java ArrayList class maintains insertion order.

@@ -59,23 +59,20 @@ public class Arrlist {
       System.out.println("Not Found");
     }
   }
-  //  n.find(3 , n);
+   n.find(3 , )
   // Function for finding out the position of the string -
 
   int search(String name) {
     return listNames.indexOf(name);
   }
-  // boolean find(int g, ArrayList<Integer> list) {
-  //   for(int i = 0; i < list.size(); i++) {
-  //     if(list.get(i) == g) { 
-  //       return true;
-  //     } else {
-  //       return false;
-  //     }
-  //   }
-  // }
+  boolean find(int g, ArrayList<Integer> list) {
+    if () {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
-
 // Java ArrayList class can contain duplicate elements.
 // Java ArrayList class maintains insertion order.
 // Java ArrayList class is non synchronized.

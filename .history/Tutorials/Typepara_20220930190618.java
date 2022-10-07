@@ -1,8 +1,5 @@
 package Tutorials;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class Data<K, V> {
 
   private K key;
@@ -19,15 +16,8 @@ class Data<K, V> {
   public V getValue() {
     return value;
   }
-  public <E> void printListData(List<E> list){
-          for(E element : list){
-            System.out.println(element);
-          }
-  }
-  public <E> void printData(E[] arrayData){
-    for(E element : arrayData){
-      System.out.println(element);
-    }
+  public <E> void printListData(List<E> data){
+    
   }
 }
 
@@ -49,12 +39,5 @@ public class Typepara {
         // System.out.println(data);  
         System.out.println(dat.getKey());       
         System.out.println(dat.getValue());
-        List <Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);        
-        
   }
 }

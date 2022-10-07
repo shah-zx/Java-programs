@@ -14,9 +14,9 @@ public class Array {
        int [] arr = {1,2,3,4,5,6,7,8,9};
        float [] brr  = {1.02f , 2.09f , 6.7f};
        System.out.println(intVariable[3]); 
-       System.out.println(brr[0]);
        System.out.println(brr[1]);
        System.out.println(brr[2]);
+       System.out.println(brr[3]);
 
 
         // The for each loop - 

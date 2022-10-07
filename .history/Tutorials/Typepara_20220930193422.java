@@ -51,10 +51,11 @@ public class Typepara {
         System.out.println(dat.getValue());
         List <Integer> list = new ArrayList<>();
         list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);        
-        
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+
+
   }
 }

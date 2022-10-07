@@ -55,6 +55,5 @@ public class Typepara {
         list.add(3);
         list.add(4);
         list.add(5);        
-        
   }
 }
