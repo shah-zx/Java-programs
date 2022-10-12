@@ -2,7 +2,7 @@ package Tutorials.Thread;
 
 import java.util.Random;
 
-// Methdo 1 - Another class which is extending the thread class  -
+// Another class which is extending the thread class  -
 
 // class MyCounter extends Thread {
 

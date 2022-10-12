@@ -2,7 +2,7 @@ package Tutorials.Thread;
 
 import java.util.Random;
 
-// Methdo 1 - Another class which is extending the thread class  -
+// Another class which is extending the thread class  -
 
 // class MyCounter extends Thread {
 
@@ -30,7 +30,7 @@ import java.util.Random;
 // }
 // }
 
-// Method 2 - Creating thread by implementing runnable interface  -
+// Creating thread by implementing runnable interface  -
 
 class MyCounter implements Runnable {
 
@@ -62,26 +62,21 @@ public class th {
     Thread thread = new Thread(new MyCounter(1));
     Thread thread2 = new Thread(new MyCounter(1));
     long StartTime = System.currentTimeMillis();
-
-    //Method 3 -  We can do this also - 
-
     new Thread(
       new Runnable() {
-        // Thread thread = new Thread(new MyCounter(1));
         @Override
         public void run() {
-          for (int r = 0; r <= 9; r++) {
+          for(int r = 0; r <= 9; r++){
             try {
               Thread.sleep(200);
             } catch (Exception e) {
-              e.printStackTrace();
+              // TODO: handle exception
             }
-            // System.out.println("The thread is" + thread + "count is" + r);
+            System.out.println("");
           }
         }
       }
-    ).start();;
-
+    );
     // MyCounter count = new MyCounter(1);
     // MyCounter count2 = new MyCounter(2);
     // count.start();  // Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.
