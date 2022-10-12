@@ -29,8 +29,6 @@ public class th{
   public static void main(String[] args) {
     MyCounter count = new MyCounter(1);
     MyCounter count2 = new MyCounter(2);
-
-    count.countMe();
-    System.out.println("--------------------");
+    System.out.println();
   }
 }

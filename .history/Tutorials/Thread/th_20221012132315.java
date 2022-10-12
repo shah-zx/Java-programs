@@ -31,6 +31,6 @@ public class th{
     MyCounter count2 = new MyCounter(2);
 
     count.countMe();
-    System.out.println("--------------------");
+    System.out.println();
   }
 }

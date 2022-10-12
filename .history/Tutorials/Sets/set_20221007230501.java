@@ -52,15 +52,11 @@ public class set {
       System.out.println(z);
     }
 
-    // Custmo sorting using comparator // 
-    // Key vaue pairs ->
-    
-
   }
 
   // 1) Hashset 
   // 2) LinkedHshedset
   // 3) Treeset
 
-
+  
 }

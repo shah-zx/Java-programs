@@ -1,13 +1,10 @@
 package Tutorials.Thread;
 
-
-// Another class which is extending the thread class 
-
 class MyCounter extends Thread {
 
   private int threadNo;
 
-  public MyCounter(int threadNo) {
+  public void MyCounter(int threadNo) {
     this.threadNo = threadNo; // The thread number //
   }
 
@@ -22,15 +19,5 @@ class MyCounter extends Thread {
         "The value of i is " + i + "and the thread number is :" + threadNo
       );
     }
-  }
-}
-
-public class th{
-  public static void main(String[] args) {
-    MyCounter count = new MyCounter(1);
-    MyCounter count2 = new MyCounter(2);
-
-    count.countMe();
-    System.out.println("--------------------");
   }
 }
