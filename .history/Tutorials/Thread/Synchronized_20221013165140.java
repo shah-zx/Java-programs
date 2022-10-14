@@ -65,9 +65,6 @@ public class Synchronized {
       }
     ).start();
   }
-
-  // Notes - 
-  
   // The execution of both the threads depends on the hardware //
   // If there will be two different objects then also the execution will be affected , as they would be nullified //
   // Synchronization is the potential to regulate the access of multiple threads to any shared resource. Synchronization in Java is essential for reliable communication between threads. It is achieved in Java with the use of synchronized keywords.Important Points Regarding Synchronization It is only for methods that are at the Object level.If a method or block is synchronized, then it requires an object-level lock to start execution.Synchronization is the most dangerous word in java because this is the only reason for the deadlock.Use synchronized keywords when it is required and try to use synchronized block. //
